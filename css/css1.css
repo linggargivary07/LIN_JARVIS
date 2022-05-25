@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0%;
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 100%;
+    margin:auto;
+}
+
+.judul {
+    padding: 20px;
+    color: turquoise;
+    font-size: 54px;
+    text-shadow: 3px 3px 3px cornflowerblue;
+    text-align: center;
+}
+
+.hero {
+    background-image: url(../img/banner-g50f53bec3_1920.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.link ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+.link ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.link ul li a:hover {
+    color: cornflowerblue;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.what {
+    margin-top: 15px;
+    padding: 20px;
+    color: turquoise;
+    font-size: 32px;
+    text-shadow: 1px 1px 3px cornflowerblue;
+    text-align: center;
+}
+
+.isi {
+    text-align: center;
+    margin: 15px 50px;
+}
+
+.bagian2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.step {
+    display: flex;
+    width: 50%;
+    margin: 15px auto;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/cologne-g438e77561_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 8px;
+    text-decoration: none;
+    background-color: darkgrey;
+    border-radius: 10px;
+    color: rgb(5, 13, 27);
+}
